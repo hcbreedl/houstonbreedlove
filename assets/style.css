@@ -1,0 +1,40 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px
+}
+
+h1 a {
+  color: black
+}
+
+h1 a:hover {
+  color: #f50057;
+  transition: 1s
+}
+
+.socialLink:hover {
+  color: black;
+  transition: 0.5s
+}
+
+.container {
+  margin-top: 150px
+}
+
+.fa {
+  padding: 25px;
+  padding-top: 59px
+}
+
+.facebookIcon {
+  color: #ff1744
+}
+
+.githubIcon {
+  color: #2979ff
+}
+
+.linkedinIcon {
+  color: #00e676
+}
