@@ -24,10 +24,10 @@ h1 a:hover {
   transition: 1s
 }
 
-.myName:hover {
+/*.myName:hover {
   color: #81c784;
   transition: 1s
-}
+}*/
 
 .socialLink {
   color: black;
