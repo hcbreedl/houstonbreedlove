@@ -92,3 +92,11 @@ p {
 .socialMediaIcons {
   float: right;
 }
+
+@media only screen and (max-width: 414px)  {
+  .description {
+    background-image: url("images/inMotionBackground.png");
+    background-size: cover;
+    height: 700px;
+  }
+}
