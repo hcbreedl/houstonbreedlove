@@ -93,6 +93,38 @@ p {
   float: right;
 }
 
+.schedulr-card {
+  border: solid #e53935 1px;
+}
+
+.schedulr-card .card-action {
+  border-top: solid #e53935 1px;
+}
+
+.project-dunn-card {
+  border: solid #1e88e5 1px;
+}
+
+.project-dunn-card .card-action {
+  border-top: solid #1e88e5 1px;
+}
+
+.toGo-travel-card {
+  border: solid #43a047 1px;
+}
+
+.toGo-travel-card .card-action {
+  border-top: solid #43a047 1px;
+}
+
+.super-scraper-card {
+  border: solid #5e35b1 1px;
+}
+
+.super-scraper-card .card-action {
+  border-top: solid #5e35b1 1px;
+}
+
 @media only screen and (max-width: 414px)  {
   .description {
     background-image: url("images/inMotionBackground.png");
