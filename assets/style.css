@@ -36,6 +36,12 @@ p {
   padding: 15px 0px 15px 0px;
 }
 
+.description {
+  background-image: url("images/inMotionBackground.png");
+  background-size: cover;
+  height: 700px;
+}
+
 .view-project {
   color: white !important;
 }
