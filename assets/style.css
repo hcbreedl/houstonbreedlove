@@ -1,6 +1,10 @@
-body {
-  background-image: url("paper.gif");
-}
+/*body {
+  background-image: url("images/background-image.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}*/
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -28,10 +32,18 @@ h1 a:hover {
   transition: 1s
 }
 
-/*.myName:hover {
-  color: #81c784;
+p {
+  padding: 15px 0px 15px 0px;
+}
+
+.view-project {
+  color: white !important;
+}
+
+.myName:hover {
+  color: white;
   transition: 1s
-}*/
+}
 
 .socialLink {
   color: black;
@@ -44,7 +56,7 @@ h1 a:hover {
 
 .fa {
   padding: 25px;
-  padding-top: 59px
+  padding-top: 30px
 }
 
 .facebookIcon {
@@ -69,4 +81,8 @@ h1 a:hover {
 
 .linkedinIcon {
   color: black
+}
+
+.socialMediaIcons {
+  float: right;
 }
