@@ -1,10 +1,5 @@
-/*body {
-  background-image: url("images/background-image.jpg");
-  background-size: cover;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-}*/
+/* HTML Elements */
+/* =========================================================================== */
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -14,6 +9,11 @@ h1 {
 
 h1 a {
   color: black
+}
+
+h1 a:hover {
+  color: #f50057;
+  transition: 1s
 }
 
 img {
@@ -27,50 +27,25 @@ img:hover {
   transition: 1s
 }
 
-h1 a:hover {
-  color: #f50057;
-  transition: 1s
-}
-
 p {
   padding: 15px 0px 15px 0px;
 }
 
-.landing-page {
-  height: 100vh;
-}
+/* Classes */
+/* =========================================================================== */
 
 .about {
   transition: 1s;
 }
 
-.getToKnowMe {
-  width: 100%;
-  color: rgba(0,0,0,0.87);
-  background-color: white;
+.container {
+  margin-top: 150px
 }
 
 .description {
   background-image: url("images/inMotionBackground.png");
   background-size: cover;
   height: 500px;
-}
-
-.tabs .indicator {
-  background-color: #33c805;
-}
-
-.view-project {
-  color: white !important;
-}
-
-.socialLink {
-  color: black;
-  transition: 0.5s
-}
-
-.container {
-  margin-top: 150px
 }
 
 .fa {
@@ -86,6 +61,12 @@ p {
   color: #ff1744
 }
 
+.getToKnowMe {
+  width: 100%;
+  color: rgba(0,0,0,0.87);
+  background-color: white;
+}
+
 .githubIcon {
   color: black
 }
@@ -98,25 +79,16 @@ p {
   color: black;
 }
 
+.landing-page {
+  height: 100vh;
+}
+
 .linkedinIcon:hover {
   color: #00e676
 }
 
 .linkedinIcon {
   color: black
-}
-
-.socialMediaIcons {
-  float: right;
-  margin-top: 25px;
-}
-
-.schedulr-card {
-  border: solid #e53935 1px;
-}
-
-.schedulr-card .card-action {
-  border-top: solid #e53935 1px;
 }
 
 .project-dunn-card {
@@ -127,12 +99,26 @@ p {
   border-top: solid #1e88e5 1px;
 }
 
-.toGo-travel-card {
-  border: solid #43a047 1px;
+.schedulr-card {
+  border: solid #e53935 1px;
 }
 
-.toGo-travel-card .card-action {
-  border-top: solid #43a047 1px;
+.schedulr-card .card-action {
+  border-top: solid #e53935 1px;
+}
+
+.socialLink {
+  color: black;
+  transition: 0.5s
+}
+
+.socialMediaIcons1 {
+  float: right;
+  margin-top: 25px;
+}
+
+.socialMediaIcons2 {
+  display: none;
 }
 
 .super-scraper-card {
@@ -142,6 +128,25 @@ p {
 .super-scraper-card .card-action {
   border-top: solid #5e35b1 1px;
 }
+
+.tabs .indicator {
+  background-color: #33c805;
+}
+
+.toGo-travel-card {
+  border: solid #43a047 1px;
+}
+
+.toGo-travel-card .card-action {
+  border-top: solid #43a047 1px;
+}
+
+.view-project {
+  color: white !important;
+}
+
+/* Media Queries */
+/* =========================================================================== */
 
 /* Ipad */
 @media only screen and (max-width: 768px)  {
@@ -155,11 +160,27 @@ p {
   .description {
     height: 227px;
   }
+
+  .socialMediaIcons1 {
+    display: none;
+  }
+
+  .socialMediaIcons2 {
+    display: block;
+  }
 }
 
 /* Iphone 6 */
 @media only screen and (max-width: 375px)  {
   .description {
     height: 205px;
+  }
+
+  .socialMediaIcons1 {
+    display: none;
+  }
+
+  .socialMediaIcons2 {
+    display: block;
   }
 }
