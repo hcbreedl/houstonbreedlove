@@ -42,7 +42,6 @@ p {
 
 .about {
   transition: 1s;
-  height: 63vh;
 }
 
 .getToKnowMe {
@@ -54,7 +53,7 @@ p {
 .description {
   background-image: url("images/inMotionBackground.png");
   background-size: cover;
-  height: 794px;
+  height: 500px;
 }
 
 .tabs .indicator {
