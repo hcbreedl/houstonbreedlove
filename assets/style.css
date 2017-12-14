@@ -36,10 +36,24 @@ p {
   padding: 15px 0px 15px 0px;
 }
 
+.about {
+  transition: 1s;
+}
+
+.getToKnowMe {
+  width: 100%;
+  color: rgba(0,0,0,0.87);
+  background-color: white;
+}
+
 .description {
   background-image: url("images/inMotionBackground.png");
   background-size: cover;
-  height: 700px;
+  height: 794px;
+}
+
+.tabs .indicator {
+  background-color: #33c805;
 }
 
 .view-project {
@@ -79,6 +93,10 @@ p {
 
 .githubIcon:hover {
   color: #2979ff
+}
+
+.intro-tabs {
+  color: black;
 }
 
 .linkedinIcon:hover {
@@ -125,10 +143,23 @@ p {
   border-top: solid #5e35b1 1px;
 }
 
+/* Ipad */
+@media only screen and (max-width: 768px)  {
+  .description {
+    height: 431px;
+  }
+}
+
+/* Iphone 6s Plus */
 @media only screen and (max-width: 414px)  {
   .description {
-    background-image: url("images/inMotionBackground.png");
-    background-size: cover;
-    height: 700px;
+    height: 227px;
+  }
+}
+
+/* Iphone 6 */
+@media only screen and (max-width: 375px)  {
+  .description {
+    height: 205px;
   }
 }
