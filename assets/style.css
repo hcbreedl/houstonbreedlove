@@ -36,8 +36,13 @@ p {
   padding: 15px 0px 15px 0px;
 }
 
+.landing-page {
+  height: 100vh;
+}
+
 .about {
   transition: 1s;
+  height: 63vh;
 }
 
 .getToKnowMe {
@@ -109,6 +114,7 @@ p {
 
 .socialMediaIcons {
   float: right;
+  margin-top: 25px;
 }
 
 .schedulr-card {
